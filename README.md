@@ -1,12 +1,27 @@
-# React + Vite
+CozyCorners
+CozyCorners is a web application for managing accommodations and hosts, featuring functionalities to add, edit, and delete countries and hosts.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description
+This application consists of two main parts:
 
-Currently, two official plugins are available:
+Backend: A REST API that supports CRUD operations for countries, hosts, and related resources.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend: A React application that communicates with the backend and presents the content in a modern user interface.
 
-## Expanding the ESLint configuration
+Features
+View, add, edit, and delete countries and hosts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Filtering and searching capabilities
+
+Uses Material UI for a clean and intuitive design
+
+Integration between frontend and backend through REST API
+
+Technical Details
+Backend: Java Spring Boot 
+
+Frontend: React + Material UI
+
+Database:  PostgreSQL
+
+Version control: GitHub
