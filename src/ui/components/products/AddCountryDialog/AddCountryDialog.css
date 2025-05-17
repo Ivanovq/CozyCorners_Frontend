@@ -1,0 +1,49 @@
+.addCountryDialog-paper {
+    background-color: #fff0f6;
+    border-radius: 16px;
+    padding: 24px !important;
+    box-shadow: 0 4px 20px rgba(216, 27, 96, 0.3);
+}
+
+.addCountryDialog-title {
+    color: #d81b60;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.addCountryDialog-content {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.addCountryDialog-textField {
+    /* Можеш дополнително да стилзираш полета ако сакаш */
+}
+
+.addCountryDialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding-top: 12px;
+}
+
+.addCountryDialog-buttonCancel {
+    color: #d81b60;
+    border: 1px solid #d81b60;
+    background-color: transparent;
+}
+
+.addCountryDialog-buttonCancel:hover {
+    background-color: #f8bbd0;
+}
+
+.addCountryDialog-buttonAdd {
+    background-color: #d81b60;
+    color: white;
+}
+
+.addCountryDialog-buttonAdd:hover {
+    background-color: #b0174a;
+}

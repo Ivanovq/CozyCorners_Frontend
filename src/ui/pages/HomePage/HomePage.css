@@ -1,0 +1,49 @@
+/* HomePage.css */
+
+.homepage-container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #fdf0f5 0%, #f8c8dc 100%);
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.homepage-title {
+    color: #880e4f !important;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.homepage-text {
+    max-width: 700px;
+    color: #4a4a4a;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.homepage-button {
+    background-color: #d96ba8 !important;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-transform: none;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.homepage-button:hover {
+    background-color: #c35095 !important;
+}

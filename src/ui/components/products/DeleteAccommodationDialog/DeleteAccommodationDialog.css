@@ -1,0 +1,41 @@
+.deleteAccommodationDialog-paper {
+    background-color: #fff0f6; /* светло розева позадина */
+    border-radius: 16px;
+    padding: 24px !important;
+    box-shadow: 0 4px 20px rgba(216, 27, 96, 0.3);
+}
+
+.deleteAccommodationDialog-title {
+    color: #d81b60; /* розева */
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.8rem;
+    padding-bottom: 8px;
+}
+
+.deleteAccommodationDialog-buttonCancel {
+    color: #d81b60;
+    border: 1px solid #d81b60;
+    background-color: transparent;
+}
+
+.deleteAccommodationDialog-buttonCancel:hover {
+    background-color: #f8bbd0;
+}
+
+.deleteAccommodationDialog-buttonDelete {
+    color: white;
+    background-color: #d81b60;
+}
+
+.deleteAccommodationDialog-buttonDelete:hover {
+    background-color: #b0174a;
+}
+
+.deleteAccommodationDialog-content {
+    font-size: 1.2rem;
+    color: #5a5a5a;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}

@@ -1,0 +1,116 @@
+/* Основни стилови за апликацијата */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf0f5; /* светло розева позадина */
+  color: #333;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Root е целиот екран */
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Централизирана содржина */
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Layout структури */
+.layout-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout-container {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Header стилови */
+.header-appbar {
+  background-color: #ec407a !important; /* светло розева AppBar */
+}
+
+.header-title {
+  font-weight: bold;
+  color: white;
+}
+
+.header-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-button {
+  font-weight: 500;
+  text-transform: none;
+  color: white !important;
+}
+
+.menu-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.login-button {
+  border: 1px solid white;
+  color: white !important;
+  text-transform: none;
+}
+
+.login-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Home Page стилови */
+.homepage-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fdf0f5;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.homepage-container h3 {
+  color: #880e4f;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.homepage-container h6 {
+  max-width: 700px;
+  color: #4a4a4a;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Responsive корекции */
+@media (max-width: 768px) {
+  .layout-container {
+    padding: 1rem;
+  }
+
+  .homepage-container {
+    padding: 2rem 1rem;
+  }
+}

@@ -1,0 +1,31 @@
+.country-page-root {
+    padding: 2rem;
+    background-color: #fdf0f5; /* Светло розова */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.country-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1.5rem;
+}
+
+.add-country-button {
+    background-color: #ec407a !important; /* Розова */
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.add-country-button:hover {
+    background-color: #d81b60; /* Темна розева */
+}

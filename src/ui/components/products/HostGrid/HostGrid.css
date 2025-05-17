@@ -1,0 +1,25 @@
+.hostGridContainer {
+    padding: 16px;
+    background-color: #fce4ec; /* светло розева позадина */
+    border-radius: 8px;
+}
+
+.hostGridItem {
+    transition: background-color 0.3s ease;
+    border-radius: 6px;
+}
+
+.hostGridItem:hover {
+    background-color: #f8bbd0; /* посветло розева при hover */
+    cursor: pointer;
+}
+.addButton {
+    background-color: #e91e63;  /* јак розев тон */
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.addButton:hover {
+    background-color: #c2185b; /* потемен розев при hover */
+}

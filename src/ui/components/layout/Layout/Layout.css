@@ -1,0 +1,12 @@
+.layout-root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Цела висина на екранот */
+    background-color: #fdf0f5; /* светло розева позадина */
+}
+
+.layout-content {
+    flex: 1; /* Земи го целиот преостанат простор */
+    padding: 2rem;
+    overflow-y: auto; /* Ако содржината е подолга од екранот */
+}

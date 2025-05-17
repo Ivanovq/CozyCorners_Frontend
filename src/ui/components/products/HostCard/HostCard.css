@@ -1,0 +1,53 @@
+.host-card {
+    max-width: 350px;
+    margin: 1rem auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.host-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.host-card-content {
+    padding-bottom: 0;
+}
+
+.host-name {
+    font-weight: 700;
+    color: #880e4f; /* темно розова */
+    text-align: center;
+}
+
+.host-card-actions {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+.host-card-buttons > button {
+    margin: 0 0.25rem;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.host-edit-button {
+    background-color: #f9a825; /* жолта боја за warning */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.host-edit-button:hover {
+    background-color: lightpink;
+}
+
+.host-delete-button {
+    background-color: #d32f2f; /* црвена боја за error */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.host-delete-button:hover {
+    background-color: #9a0007;
+}

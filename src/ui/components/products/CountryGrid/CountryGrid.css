@@ -1,0 +1,12 @@
+.country-grid-container {
+    padding: 20px;
+    background-color: #f9f6fc;
+    border-radius: 10px;
+    min-height: 80vh;
+}
+
+.country-grid-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 300px; /* прилагоди по твоја карта */
+}
+

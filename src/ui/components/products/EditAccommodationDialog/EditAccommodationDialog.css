@@ -1,0 +1,39 @@
+.editAccommodationDialog-paper {
+    background-color: #fff0f6; /* светло розева позадина */
+    border-radius: 16px;
+    padding: 24px !important;
+    box-shadow: 0 4px 20px rgba(216, 27, 96, 0.3);
+}
+
+.editAccommodationDialog-title {
+    color: #d81b60; /* розева */
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.8rem;
+    padding-bottom: 8px;
+}
+
+.editAccommodationDialog-inputLabel {
+    color: #d81b60 !important;
+}
+
+.editAccommodationDialog-textField .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: #d81b60 !important;
+}
+
+.editAccommodationDialog-select .MuiOutlinedInput-notchedOutline {
+    border-color: #d81b60;
+}
+
+.editAccommodationDialog-select.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #d81b60;
+}
+
+.editAccommodationDialog-button {
+    color: white;
+    background-color: #d81b60;
+}
+
+.editAccommodationDialog-button:hover {
+    background-color: #b0174a;
+}

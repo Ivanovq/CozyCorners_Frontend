@@ -1,0 +1,22 @@
+.loading-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.add-host-button {
+    background-color: #ec407a !important; /* светло розева */
+    color: white;
+    font-weight: 700;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add-host-button:hover {
+    background-color: #d81b60 !important; /* потемна розева */
+}

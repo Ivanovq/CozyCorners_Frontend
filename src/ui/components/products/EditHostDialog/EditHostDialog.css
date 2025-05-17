@@ -1,0 +1,49 @@
+.dialogTitle {
+    font-weight: bold;
+    font-size: 22px;
+    color: #d81b60; /* розево */
+    padding-bottom: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dialogActions {
+    padding: 16px 24px;
+    background-color: #fce4ec; /* светло розева позадина */
+}
+
+.buttonCancel {
+    color: #ad1457; /* темно розево */
+    border: 1px solid #ad1457;
+    background: transparent;
+    font-weight: normal;
+    cursor: pointer;
+    padding: 6px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttonCancel:hover {
+    background-color: #ad1457;
+    color: white;
+}
+
+.buttonEdit {
+    font-weight: bold;
+    background-color: #d81b60; /* розево */
+    color: white;
+    padding: 6px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttonEdit:hover {
+    background-color: #880e4f; /* потемно розево */
+}
+
+.MuiDialogContent-root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #4a148c; /* темно пурпурна боја */
+}
